@@ -5,6 +5,7 @@ function SignUpPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
+
   function handleFormClick(e) {
     e.preventDefault();
     const data = {
